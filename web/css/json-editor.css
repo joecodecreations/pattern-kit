@@ -206,7 +206,7 @@ body { -webkit-animation: androidBugfix infinite 1s; }
 
 #editor_holder .well {
   margin-bottom: 10px;
-  background-color: rgba(0,0,0,.08);
+  background-color: rgba(0,0,0,.1);
 }
 
 #json_holder {
@@ -242,7 +242,9 @@ body { -webkit-animation: androidBugfix infinite 1s; }
   z-index: 10;
   background: rgba(255,255,255,.5);
 }
-
+.well {
+  border: 1px solid rgba(0,0,0,.08) !important;
+}
 .help-block {
   color: #555 !important;
 }
@@ -257,6 +259,9 @@ body { -webkit-animation: androidBugfix infinite 1s; }
 .well .table-bordered>thead>tr>th ,
 .well .table-bordered>tbody>tr~tr {
   border-top: 1px #dedede solid;
+}
+.btn-group {
+    padding-bottom: 10px !important;
 }
 
 a[href="#top"] {
