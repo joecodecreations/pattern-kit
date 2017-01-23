@@ -159,6 +159,10 @@ body { -webkit-animation: androidBugfix infinite 1s; }
   height: 26px;
 }
 
+.form-control {
+  background: #fff !important;
+}
+
 #editor_holder .list-group-item {
   padding: 6px 6px;
 }
@@ -202,6 +206,7 @@ body { -webkit-animation: androidBugfix infinite 1s; }
 
 #editor_holder .well {
   margin-bottom: 10px;
+  background-color: rgba(0,0,0,.08);
 }
 
 #json_holder {
@@ -238,7 +243,9 @@ body { -webkit-animation: androidBugfix infinite 1s; }
   background: rgba(255,255,255,.5);
 }
 
-
+.help-block {
+  color: #555 !important;
+}
 .well .table-bordered  {
   border: 0px;
 }
